@@ -1,0 +1,22 @@
+<div class="form-group">
+	<input type="text" class="form-control" id="search"
+		placeholder="Search artist" data-ng-model="search">
+	<h1>{{search}}</h1>
+</div>
+<table class="table table-striped table-hover">
+	<tbody>
+		<tr>
+			<th>Artist name</th>
+			<th>Genre</th>
+			<th>Rating</th>
+		</tr>
+		<tr data-ng-repeat="item in data | filter:search">
+			<td>{{item.name}}</td>
+			<td>{{item.genre}}</td>
+			<td>{{item.rating}}</td>
+		</tr>
+	</tbody>
+</table>
+<div class="form-group">
+	<button data-ng-click="addArtist()" alss="btn btn-primary">Add Artist</button>
+</div>
