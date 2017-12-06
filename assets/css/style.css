@@ -1,5 +1,25 @@
+.anya-iso{
+	display:inline;
+}
+@media ( max-width :500px) {
+	.anya-iso {
+		display:none;
+	}
+}
+.logo{
+	display:inline;
+	position: relative;
+	left:-3px;
+}
+@media ( max-width :500px) {
+	.logo {
+	display:inline;
+	position: relative;
+	left:-0px;
+	}
+}
 .footer {
-    background: #222222 none repeat scroll 0 0;
+    background: #3c763d  none repeat scroll 0 0;
     border-top: 2px solid #fcab0e;
     margin: 0;
     padding: 20px 0;
@@ -41,3 +61,24 @@
 	margin:5px 15px;
 	padding:5px;
 }
+.pdtb{
+	padding:15px 0;
+}
+.pdlr{
+	padding:0 45px;
+	text-align: justify;
+}
+.home-container{
+	width:100%;
+	background:#3c763d
+}
+.home-content {
+    padding: 30px;
+    color: #ffffff;
+    background-color: #3c763d;
+}
+.details {
+    padding: 27px 24px;
+    position: relative;
+    color:#000;
+}    

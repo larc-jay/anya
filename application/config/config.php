@@ -325,7 +325,9 @@ $config['cache_query_string'] = FALSE;
 |
 */
 $config['encryption_key'] = '';
-
+$config['salt_length'] = 22;
+$config['store_salt']  = FALSE;
+$config['hash_method']    = 'bcrypt';
 /*
 |--------------------------------------------------------------------------
 | Session Variables

@@ -1,48 +1,43 @@
-<footer id="footer"  style="padding:2% 5% 0 5%">
- 	<section class="footer">
+<footer class="footer"  style="padding:2% 5% 0 5%">
     <div class="container">
     	<div class="row">
         	<div class="col-lg-4  col-md-4 col-sm-4">
             	<div class="footer_dv">
                 	<h4>Services</h4>
                 	<ul>
-                    	<li class="line_rv"><a href="#">Canon Printer Support</a></li>
-               
-                        <li><a href="#">Hp printer Support</a></li>
-                        <li><a href="#">Dell Printer Support</a></li>
-                        <li><a href="#">Epson printer Support</a></li>
-                        <li><a href="#">Samsung Printer Support</a></li>
-                        <li><a href="#">Lexmark Printer Support</a></li>
+                    	<li class="line_rv"><a href="#">Systems Design</a></li>
+                        <li><a href="#">System Installation</a></li>
+                        <li><a href="#">Operation</a></li>
+                        <li><a href="#">Maintanance</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-4  col-md-4 col-sm-4">
             	<div class="footer_dv">
-                	<h4>Services</h4>
+                	<h4>Products</h4>
                 	<ul>
-                    	<li><a href="#">Toshiba Printer Support</a></li>
-                        <li><a href="#">Panasonic Printer Support</a></li>
-                        <li><a href="#">Xerox Printer Support</a></li>
-                        <li><a href="#">Brother printer support</a></li>
-                        <li><a href="#">Zebra printer support</a></li>
-                        <li><a href="#">Lenovo printer Support</a></li>
-                       
-                        
+                    	<li><a href="#">Solar Water Pump</a></li>
+                        <li><a href="#">Solar Module</a></li>
+                        <li><a href="#">Power Saver</a></li>
+                        <li><a href="#">Solar Petrol Pump</a></li>
+                       <li><a href="#">Solar Panel Structure</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-4  col-md-4 col-sm-4">
             	<div class="footer_dv">
                 	<h4>Contact us</h4>
-                	<p>Printer customer Support</p>
-      				<p>USA (TOLL FREE) 8322372800<br>
-
-				
-                </p></div>
+                	<p>Virdhawalpur, Chiurapur (Babatpur)<br>
+      				   Varanasi, Uttar Pradesh-221204, India.<br>
+					  (Near Varanasi Airport)
+                     </p>
+                     <p><h5>Call Us: 7607778600</h5></p>
+                     <p><h5>Email : contact@anyagreenenergy.com <br>
+                     	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anyagreenenergy@gmail.com </h5> </p>
+                </div>
             </div>
         </div>
     </div>
-</section>
 </footer>
 </body>
 </html>

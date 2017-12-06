@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
 	<base href="<?php echo base_url()?>" />
 	<title><?php    ?></title>
+	<link rel="shortcut icon" href="<?php echo base_url()?>assets/images/favicon.png?v2" />
 	 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 	 <link rel="stylesheet" href="<?php echo base_url()?>assets/css/carousel.css" >
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css" >
