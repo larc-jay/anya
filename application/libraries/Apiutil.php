@@ -1,18 +1,20 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 class Apiutil {
-public function setResponseSuccessData($data){
+public function setResponseSuccessData($data,$message=null){
 		$response = array(
 				'responseCode' => 200,
 				'status' =>'SUCCESS',
+				'message' => $message,
 				'data'  =>$data
 		);
 		return $response;
 	}
-	public function setResponseFailsData($data){
+	public function setResponseFailsData($data,$message=null){
 		$response = array(
 				'responseCode' => 404,
 				'status' =>'FAIL',
+				'message' => $message,
 				'data'  =>'[]'
 		);
 		return $response;
