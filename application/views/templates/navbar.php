@@ -18,14 +18,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About Us</a></li>
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
+        <li><a href="#!/about" >About Us</a></li>
+        <li class="dropdown"><a href="#!/services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
           	<ul class="dropdown-menu" role="menu">
-            	<li><a href="#">System Design</a></li>
+            	<li><a href="#!/sysdesign">System Design</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">System Installation</a></li>
+            	<li><a href="#!/sysinstallation">System Installation</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Operationas and Maintanance</a></li>
+            	<li><a href="#!/operations">Operationas and Maintanance</a></li>
           	</ul>
         </li>
         </li>
@@ -42,9 +42,9 @@
             	<li><a href="#">Street Light</a></li>
           	</ul>
         </li>
-        <li><a href="#">Our Installations</a></li>
-        <li><a href="#">FAQs</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#!/installations">Our Installations</a></li>
+        <li><a href="#!/faqs">FAQs</a></li>
+        <li><a href="#!/contact">Contact Us</a></li>
       </ul>
       <!--form class="navbar-form navbar-left" role="search">
         <div class="form-group">

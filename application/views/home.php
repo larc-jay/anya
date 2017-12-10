@@ -1,14 +1,15 @@
 <?php
 defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 ?>
-<body data-ng-app="anyawebapp">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12"> 
-				<?php  $this->load->view('templates/carosual'); ?> 
-		</div>
-		</div>
-	</div>
+<body>
+	
+		  <div class="container">
+				<div class="row">
+					<div class="col-md-12"> 
+						<?php  $this->load->view('templates/carosual'); ?> 
+					</div>
+				</div>
+			</div>
 	<div class="home-container">
 		<div class="row home-content">
 			<div class="col-md-2"></div>
