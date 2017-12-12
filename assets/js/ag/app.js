@@ -21,9 +21,12 @@ app.config(function($routeProvider,BASE_URL){
 	}).when("/faqs",{
 		templateUrl :BASE_URL+"main/faqs",
 		controller: "FaqsCtrl"
-	}).when("/products",{
+	}).when("/products/:id",{
 		templateUrl :BASE_URL+"main/products",
 		controller: "ProductsCtrl"
+	}).when("/installations",{
+		templateUrl :BASE_URL+"main/installations",
+		controller: "InstallationsCtrl"
 	}).otherwise({
 		redirectTo:"/app",
 		templateUrl :BASE_URL+"main/home",
@@ -45,11 +48,24 @@ app.controller("AboutCtrl",["$scope","$location","$routeParams", function($scope
 }
 ]);
 app.controller("FaqsCtrl",["$scope","$location","$routeParams","$http", function($scope,$location,$routeParams,$http) {
-	  $http.get('http://localhost/anya/index.php/api/getFaqs').then(function(response) {
+	  $http.get('http://localhost:55555/anya/index.php/api/getFaqs').then(function(response) {
           $scope.faqs = response.data;
       });
 	  $scope.routeParams = $routeParams;
+	  console.log($routeParams);
+	  
 }
 ]);
-
+app.controller("ProductsCtrl",["$scope","$location","$routeParams", "$http", function($scope,$location,$routeParams,$http) {
+    $http({
+    	        url: 'http://localhost:55555/anya/index.php/api/getViewProduct',
+    	        method: "POST",
+    	        data: { 'id' : $routeParams.id },
+    	        headers: {'Content-Type': 'application/json'}
+    	    }).then(function(response) {
+    	    $scope.product = response.data;
+    	    console.log(response);
+       });
+	}
+]);
 

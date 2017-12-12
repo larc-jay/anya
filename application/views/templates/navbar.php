@@ -31,19 +31,19 @@
         </li>
         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products <span class="caret"></span></a>
           	<ul class="dropdown-menu" role="menu">
-            	<li><a href="#">Solar Water Pump</a></li>
+            	<li><a href="#!/products/1">Solar Water Pump</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Rooftop Solar</a></li>
+            	<li><a href="#!/products/2">Rooftop Solar</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">on-Grid</a></li>
+            	<li><a href="#!/products/3">on-Grid</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">off-Grid</a></li>
+            	<li><a href="#!/products/4">off-Grid</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Solar Water Heater</a></li>
+            	<li><a href="#!/products/5">Solar Water Heater</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Solar Structure</a></li>
+            	<li><a href="#!/products/6">Solar Structure</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Street Lights</a></li>
+            	<li><a href="#!/products/7">Street Lights</a></li>
           	</ul>
         </li>
         <li><a href="#!/installations">Our Installations</a></li>
