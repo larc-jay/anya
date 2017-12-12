@@ -6,7 +6,6 @@
 				<p style="font-size: 20px;color: #3c763d ">{{faq.title}}</p>
 				<p>{{faq.description}} </p>
 			</div>
-			<hr>
 		</div>	
 	</div>
 </div>
