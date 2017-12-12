@@ -18,6 +18,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 	<script src="<?php echo base_url()?>assets/js/ag/angular.min.js"></script>
     <script src="<?php echo base_url()?>assets/js/ag/angular-route.js"></script>
+     <script src="<?php echo base_url()?>assets/js/ag/app.config.js"></script>
     <script src="<?php echo base_url()?>assets/js/ag/app.js"></script>
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->

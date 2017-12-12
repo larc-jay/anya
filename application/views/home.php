@@ -169,7 +169,7 @@ defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 								<p>Well take care of your entire solar project from start to finish.
 								Before you...
 								</p>
-								<p>Read More</p>
+								<a href="#!/sysdesign" class="read-more">Read More</a>
 							</div>
 						</div>
 
@@ -179,7 +179,7 @@ defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 								<h3 class="subheading">System Installation</h3>
 								<p>Most solar panel system installations take only a single day. Well find......
 								</p>
-								<p>Read More</p>
+								<a href="#!/sysinstallation"  class="read-more-s">Read More</a>
 							</div>
 						</div>
 
@@ -189,7 +189,7 @@ defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 								<h3 class="subheading">Operation and Maintanance</h3>
 								<p>Does this seem too complicated and full of technical jargon? Not
 								to worry! We will...</p>
-								<p>Read More</p>
+								<a href="#!/operations"  class="read-more-s">Read More</a></span>
 							</div>
 						</div>
 					</div>		

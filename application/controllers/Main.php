@@ -29,6 +29,18 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('pages/services');
 	}
+	public function systemdesign()
+	{
+		$this->load->view('pages/sysdesign');
+	}
+	public function sysinstallation()
+	{
+		$this->load->view('pages/sysinstl');
+	}
+	public function sysoperation()
+	{
+		$this->load->view('pages/sysops');
+	}
 	public function products()
 	{
 		$this->load->view('pages/products');

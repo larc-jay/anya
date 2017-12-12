@@ -21,11 +21,11 @@
         <li><a href="#!/about" >About Us</a></li>
         <li class="dropdown"><a href="#!/services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
           	<ul class="dropdown-menu" role="menu">
-            	<li><a href="#!/sysdesign">System Design</a></li>
+            	<li><a href="#!/systemdesign">System Design</a></li>
             	<li class="divider"></li>
             	<li><a href="#!/sysinstallation">System Installation</a></li>
             	<li class="divider"></li>
-            	<li><a href="#!/operations">Operationas and Maintanance</a></li>
+            	<li><a href="#!/sysoperation">Operationas and Maintanance</a></li>
           	</ul>
         </li>
         </li>
@@ -33,13 +33,17 @@
           	<ul class="dropdown-menu" role="menu">
             	<li><a href="#">Solar Water Pump</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Solar Module</a></li>
+            	<li><a href="#">Rooftop Solar</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Power Saver</a></li>
+            	<li><a href="#">on-Grid</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Solar Petrol Pump</a></li>
+            	<li><a href="#">off-Grid</a></li>
             	<li class="divider"></li>
-            	<li><a href="#">Street Light</a></li>
+            	<li><a href="#">Solar Water Heater</a></li>
+            	<li class="divider"></li>
+            	<li><a href="#">Solar Structure</a></li>
+            	<li class="divider"></li>
+            	<li><a href="#">Street Lights</a></li>
           	</ul>
         </li>
         <li><a href="#!/installations">Our Installations</a></li>

@@ -1,48 +1,54 @@
-var app = angular.module('anyawebapp', ["ngRoute"]);
-app.config(function($routeProvider){
+var app = angular.module('anyawebapp', ["ngRoute","ENVConf"]);
+app.config(function($routeProvider,BASE_URL){
 	$routeProvider.when("/about",{
-		templateUrl :"http://localhost:55555/anya/index.php/main/about",
+		templateUrl :BASE_URL+"main/about",
 		controller: "AboutCtrl"
 	}).when("/contact",{
-		templateUrl :"http://localhost:55555/anya/index.php/main/contact",
+		templateUrl :BASE_URL+"main/contact",
 		controller: "ContactCtrl"
 	}).when("/services",{
-		templateUrl :"http://localhost:55555/anya/index.php/main/services",
+		templateUrl :BASE_URL+"main/services",
 		controller: "ServicesCtrl"
-	}).when("/installations",{
-		templateUrl :"http://localhost:55555/anya/index.php/main/installations",
-		controller: "InstallationCtrl"
+	}).when("/systemdesign",{
+		templateUrl :BASE_URL+"main/systemdesign",
+		controller: "SystemDesignCtrl"
+	}).when("/sysinstallation",{
+		templateUrl :BASE_URL+"main/sysinstallation",
+		controller: "SysInstallationCtrl"
+	}).when("/sysoperation",{
+		templateUrl :BASE_URL+"main/sysoperation",
+		controller: "SysOpsCtrl"
 	}).when("/faqs",{
-		templateUrl :"http://localhost:55555/anya/index.php/main/faqs",
+		templateUrl :BASE_URL+"main/faqs",
 		controller: "FaqsCtrl"
 	}).when("/products",{
-		templateUrl :"http://localhost:55555/anya/index.php/main/products",
+		templateUrl :BASE_URL+"main/products",
 		controller: "ProductsCtrl"
-	})
-	.otherwise({
+	}).otherwise({
 		redirectTo:"/app",
-		templateUrl :"http://localhost:55555/anya/index.php/main/home",
-		controller: "MainCtrl"})
+		templateUrl :BASE_URL+"main/home",
+		})
 });
 
 app.controller("ServicesCtrl",["$scope","$location","$routeParams", function($scope,$location,$routeParams) {
 	$scope.data=[
-		    {name:"GroupLove",genre:"The Bealters",rating:2},
-		    {name:"GroupLove",genre:"The Bealters",rating:8},
-		    {name:"GroupLove",genre:"The Bealters",rating:4},
 		    {name:"GroupLove",genre:"The Bealters",rating:5},
 		    {name:"Alt-2",genre:"The Alternate",rating:3}
 	    ];
 	$scope.addArtist = function(){
-		//$location.path = "item/add"
-		alert('working add block');
 	}
 }]);
 app.controller("ContactCtrl",["$scope","$location","$routeParams", function($scope,$location,$routeParams) {}
 ]);
 app.controller("AboutCtrl",["$scope","$location","$routeParams", function($scope,$location,$routeParams) {
 	    $scope.location = $location;
-	  
+}
+]);
+app.controller("FaqsCtrl",["$scope","$location","$routeParams","$http", function($scope,$location,$routeParams,$http) {
+	  $http.get('http://localhost/anya/index.php/api/getFaqs').then(function(response) {
+          $scope.faqs = response.data;
+      });
+	  $scope.routeParams = $routeParams;
 }
 ]);
 

@@ -1,45 +1,66 @@
 <div class="container">
-	<h1>About us</h1>
-	<p style="font-size: 25px; text-align: center; color: #000">We Work on Make Installation of Solar System Simpler</p>
-	<p class="list-group-item list-group-item-action">We take care of every aspect of solar-panel installation in your home
-	from beginning to the end. We do everything from analyzing your home,
-	to installing solar panels, electricity fitting, and paper work. This
-	is just one of the benefits of choosing AGE Solutions Solar, a company
-	with experts and experienced personnel. With the rise in cost of
-	electricity, and given the availability of rebates and incentives for
-	solar installation, it is the best time to go solar. At AGE Solutions
-	Solar, we ensure best value for your money and complete satisfaction
-	with your solar-panel installation. Call or email us today to see what
-	a difference our experience and quality can make to your next project.
-	</p>
-	<hr>
-	<p style="font-size: 25px; text-align: center; color: #000">Much More Than Saving on Electricity Bills</p>
-	<p class="list-group-item list-group-item-action">By installing solar panels in your home, you will save much more than
-	direct savings on your electric bills. In addition, the value of your
-	property will also increase by a significant amount. In a timespan of
-	5-10 years, you will most likely recover your investment, and you will
-	also gain more than three times your investment considering the long
-	life of solar panels. The best thing about installing solar panels is
-	that you will be oblivious of the increase in cost of electricity in
-	coming years. You can continue using electricity at the same cost and
-	even at the times when the local and national electricity grid is down.
-	It makes more sense to invest in solar power taking all these factors
-	into consideration.. The initial investment may be on the higher side,
-	but you will save thousands of rupee and enjoy uninterrupted supply of
-	power in the long run. </p>
-	 
-	<hr>
-	 
-	<p style="font-size: 25px; text-align: center; color: #000">High Quality Solar Panels at Affordable Prices</p>
+	<h1>Services</h1>
+	<p style="font-size: 25px; text-align: center; color: #000">Systems
+		Design</p>
+	<div class="list-group-item list-group-item-action">
+		<img alt=""
+			src="<?php base_url() ?>assets/images/age_9762300905installation image1.jpg"
+			style="height: 331px; width: 100%; padding-bottom: 30px">
+		<h4>We make solar easy.</h4>
+		<p>
+			We'll take care of your entire solar project from start to finish.
+			Before you start planning your solar installation, evaluate how much
+			energy you could save by making easy changes at home. Get your home
+			more energy efficient! Complete and <img alt=""
+				src="<?php base_url() ?>assets/images/age_78588858321st.jpg"
+				style="float: right; height: 160px; width: 230px; padding: 10px;">
+			email us the Power Consumption; Analysis below and lets us find out
+			more about your electricity needs.
+		</p>
+		<h4>Get a free solar consultation.</h4>
+		<p>Every solar power project starts with a quick conversation to see
+			if solar is right for you.</p>
+		<p>We'll discuss your energy use and take a look at your roof using
+			satellite imaging.</p>
+		<p>
+			We'll prep.... <a href="#!/sysdesign" class="read-more">Read More</a>
+		</p>
 
-	<p class="list-group-item list-group-item-action">We are committed to ensuring that every solar-system installation by
-	AGE Solutions Solar gives you the most value for your rupee. For this
-	reason, we design custom solar projects for each of our clients after
-	carefully analyzing their home and energy needs. Our solar panel
-	quality is the best in class and is offered at the best prices with
-	complete guarantee of long life. Our rich portfolio, featuring a long
-	list of satisfied customers from all over Varanasi,
-	Robertasganj,Mirjapur and Joinpur, is proof that AGE Solutions Solar is
-	the best when it comes to solar system installation for residential and
-	commercial use.</p>
+	</div>
+	<p style="font-size: 25px; text-align: center; color: #000">System
+		Installation</p>
+	<div class="list-group-item list-group-item-action">
+		<h4>Complete installation in 1 day.</h4>
+		<img alt=""
+			src="<?php base_url() ?>assets/images/age_41575017444th.jpg"
+			style="float: left; height: 170px; width: 250px; padding: 0 10px;">
+		<p>Most solar panel system installations take only a single day. We ll
+			find a day that works best for you. We also take care of all of the
+			permits and inspections. All you have to do is watch it all come
+			together.</p>
+		<img alt="anya green energy"
+			src="<?php base_url() ?>assets/images/age_78588858322nd.jpg"
+			style="float: right; height: 157px; width: 210px">
+		<p>&nbsp;</p>
+		<h4>Turn on the power.</h4>
+		<p>Here's the best part. Once the utility company gives approval, you
+			get to flip the switch to start generating your own clean, affordable
+			energy</p>
+		<a href="#!/sysinstallation"  class="read-more">Read More</a>
+		<p>&nbsp;</p>
+	</div>
+
+	<p style="font-size: 25px; text-align: center; color: #000">Operation
+		and Maintanance</p>
+	<div class="list-group-item list-group-item-action">
+		<img alt="Anya" src="<?php base_url() ?>assets/images/age_5518189700wp6784bf97_05_1a.jpg" style="float: right; height: 159px; width: 290px">
+		<h4>Service and quality are our objectives</h4>
+		<p>Does this seem too complicated and full of technical jargon? Not to
+			worry! We will be on hand to help you throughout the entire project,
+			from the energy audit and assessment of your location, to suggesting
+			the size and type of system as well as the final installation.</p>
+			<a href="#!/operations"  class="read-more">Read More</a></span>
+			<p>&nbsp;</p>
+	</div>
+	<p>&nbsp;</p>
 </div>

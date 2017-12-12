@@ -82,3 +82,23 @@
     position: relative;
     color:#000;
 }    
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+h4,h5{
+	color:#266b27 !important;
+}
+.read-more{
+	color:#266b27 !important;
+	font-size:20px;
+}
+.read-more-s{
+	color:#266b27 !important;
+	font-size:15px;
+}

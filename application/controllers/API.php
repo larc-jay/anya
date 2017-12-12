@@ -60,6 +60,19 @@ class API extends CI_Controller {
 		$response = $this->api_model->remove_product_category($this->input->post('name'));
 		$this->output->set_output(json_encode($response));
 	}
+	public function addFaq(){
+		$faq = array(
+				'title' => $this->input->post('title'),
+				'description' => $this->input->post('description'),
+				'type' => $this->input->post('type') === null ? 'general' : $this->input->post('type')
+		);
+		$response = $this->api_model->add_faqs($faq);
+		$this->output->set_output(json_encode($response));
+	}
+	public function getFaqs(){
+		$response = $this->api_model->get_faqs_list();
+		$this->output->set_output(json_encode($response));
+	}
 }
 
 ?>
