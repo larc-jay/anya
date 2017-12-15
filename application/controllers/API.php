@@ -74,7 +74,8 @@ class API extends CI_Controller {
 		$this->output->set_output(json_encode($response));
 	}
 	public function getViewProduct(){
-		$response = $this->api_model->get_view_product($this->input->get('id'));
+		$json = json_decode(file_get_contents('php://input'), true);
+		$response = $this->api_model->get_view_product($json['id']);
 		$this->output->set_output(json_encode($response));
 	}
 }

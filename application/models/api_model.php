@@ -96,8 +96,9 @@ class Api_model extends CI_Model {
 	}
 	public function get_view_product($id){
 		$this->db->select ( '*' );
-		$this->db->where ( $id, $id );
-		$query =  $this->db->get('products');
+		$this->db->from ( 'products' );
+		$this->db->where ('id', $id );
+		$query =  $this->db->get();
 		return $query->row();
 	}
 	

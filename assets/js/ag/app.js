@@ -48,19 +48,17 @@ app.controller("AboutCtrl",["$scope","$location","$routeParams", function($scope
 }
 ]);
 app.controller("FaqsCtrl",["$scope","$location","$routeParams","$http", function($scope,$location,$routeParams,$http) {
-	  $http.get('http://localhost:55555/anya/index.php/api/getFaqs').then(function(response) {
+	  $http.get('http://localhost/anya/index.php/api/getFaqs').then(function(response) {
           $scope.faqs = response.data;
       });
-	  $scope.routeParams = $routeParams;
-	  console.log($routeParams);
 	  
 }
 ]);
 app.controller("ProductsCtrl",["$scope","$location","$routeParams", "$http", function($scope,$location,$routeParams,$http) {
-    $http({
-    	        url: 'http://localhost:55555/anya/index.php/api/getViewProduct',
+    	$http({
+    	        url: 'http://localhost/anya/index.php/api/getViewProduct',
     	        method: "POST",
-    	        data: { 'id' : $routeParams.id },
+    	        data: JSON.stringify({id:$routeParams.id }),
     	        headers: {'Content-Type': 'application/json'}
     	    }).then(function(response) {
     	    $scope.product = response.data;
