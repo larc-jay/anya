@@ -17,7 +17,7 @@
     <div class="container">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li class=""><a href="#">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#!/about" >About Us</a></li>
         <li class="dropdown"><a href="#!/services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
           	<ul class="dropdown-menu" role="menu">

@@ -1,7 +1,7 @@
 <footer class="footer"  style="padding:2% 5% 0 5%">
     <div class="container">
     	<div class="row">
-        	<div class="col-lg-4  col-md-4 col-sm-4">
+        	<div class="col-lg-3  col-md-3 col-sm-3">
             	<div class="footer_dv">
                 	<h4>Services</h4>
                 	<ul>
@@ -12,7 +12,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4  col-md-4 col-sm-4">
+            <div class="col-lg-3  col-md-3 col-sm-3">
             	<div class="footer_dv">
                 	<h4>Products</h4>
                 	<ul>
@@ -24,19 +24,34 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4  col-md-4 col-sm-4">
+            <div class="col-lg-3  col-md-3 col-sm-3">
             	<div class="footer_dv">
                 	<h4>Contact us</h4>
                 	<p>Virdhawalpur, Chiurapur (Babatpur)<br>
       				   Varanasi, Uttar Pradesh-221204, India.<br>
 					  (Near Varanasi Airport)
                      </p>
-                     <p><h5>Call Us: 7607778600</h5></p>
-                     <p><h5>Email : contact@anyagreenenergy.com <br>
-                     	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anyagreenenergy@gmail.com </h5> </p>
+                     <p>Call Us: 7607778600</p>
+                     <p>Email : contact@anyagreenenergy.com <br>
+                     	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anyagreenenergy@gmail.com </p>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-3 col-sm-3">
+            	<div class="footer_dv">
+                	<h4>social media</h4>
+                		<?php  $this->load->view('templates/social'); ?>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row">
+          <div class="col-md-12">
+          	<a href="https://www.facebook.com/anyagreenenergy"><i class="fa fa-facebook-square" ></i></a>
+<a href="https://www.linkedin.com/company/anya-green-energy-solutions"><i class="fa fa-twitter-square" ></i></a>
+<a href="https://plus.google.com/114783585169273581555"><i class="fa fa-google-plus-square" ></i></a>
+          	
+          	<a href="http://anyagreenenergy.com">&copy;2016 anyagreenenergy.com</a>
+          </div>
     </div>
 </footer>
 </body>

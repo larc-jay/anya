@@ -1,5 +1,5 @@
 <div class="container">
-<p style="font-size: 25px; text-align: center; color: #000">System
+	<p style="font-size: 25px; text-align: center; color: #000">System
 		Installation</p>
 	<div class="list-group-item list-group-item-action">
 		<h4>Complete installation in 1 day.</h4>
@@ -18,8 +18,21 @@
 		<p>Here's the best part. Once the utility company gives approval, you
 			get to flip the switch to start generating your own clean, affordable
 			energy</p>
+			<p>&nbsp;</p>
+		<h4>
+			Service and quality are our objectives
+				
+		</h4>
+
+		<p>Does this seem too complicated and full of technical jargon? Not to
+			worry! We will be on hand to help you</p>
+<img src="http://anyagreenenergy.com/uploads/age_5518189700shapeimage_1.png" style="height: 140px; width: 210px" />
+		<p>throughout the entire project, from the energy audit and assessment
+			of your location, to suggesting the</p>
+
+		<p>size and type of system as well as the final installation.</p>
 		
-		<p>&nbsp;</p>
+		
 	</div>
 
 </div>

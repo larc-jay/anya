@@ -3,7 +3,7 @@
 	<h1>Contact us</h1>
 	<div class="row">
 		<div class="col-md-3"><img alt="contact us"  src="<?php echo base_url()?>assets/images/contact-us.png" style=""></div>
-		<div class="col-md-3">
+		<div class="col-md-3 home-content">
 				<p><h4>Anya Green Energy Solutions</h4></p>
 				<p> Virdhawalpur, Chiurapur</p>
 				<p>(Babatpur), Varanasi </p>

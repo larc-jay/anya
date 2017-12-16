@@ -1,8 +1,19 @@
 <div class="container">
-	<h1>About us</h1>
-	<div class="list-group-item list-group-item-action">
-		<div ng-controller="FaqsCtrl">
-			{{product}}
+	
+	<div ng-controller="ProductsCtrl">
+		<div class="row">
+			<div lass="col-md-12">
+				<div class="list-group-item list-group-item-action">
+					<h4>{{title}}</h4>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div lass="col-md-12">
+				<div class="list-group-item list-group-item-action">
+					<p ng-bind-html="summary"></p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

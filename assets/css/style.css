@@ -6,6 +6,13 @@
 		display:none;
 	}
 }
+table {
+     background-color: #ffffff !important; 
+}
+.btn-bg{
+	background: #3c763d !important;
+	color:#ffffff !important;
+}
 .logo{
 	display:inline;
 	position: relative;
@@ -28,7 +35,7 @@
     width: 100%;
 }
 .footer_dv h4 {
-    color: #fcab0e;
+    color: #fcab0e !important;
     font-family: roboto;
     font-weight: bold;
     margin-bottom: 30px;

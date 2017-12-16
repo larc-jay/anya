@@ -1,69 +1,34 @@
-var app = angular.module('anyawebapp', ["ngRoute","ENVConf"]);
+var app = angular.module('anyawebappmain', ["ngRoute","ENVConf"]);
 app.config(function($routeProvider,BASE_URL){
 	$routeProvider.when("/about",{
-		templateUrl :BASE_URL+"main/about",
+		templateUrl :BASE_URL+"/about",
 		controller: "AboutCtrl"
 	}).when("/contact",{
-		templateUrl :BASE_URL+"main/contact",
+		templateUrl :BASE_URL+"/contact",
 		controller: "ContactCtrl"
 	}).when("/services",{
-		templateUrl :BASE_URL+"main/services",
+		templateUrl :BASE_URL+"/services",
 		controller: "ServicesCtrl"
 	}).when("/systemdesign",{
-		templateUrl :BASE_URL+"main/systemdesign",
+		templateUrl :BASE_URL+"/systemdesign",
 		controller: "SystemDesignCtrl"
 	}).when("/sysinstallation",{
-		templateUrl :BASE_URL+"main/sysinstallation",
+		templateUrl :BASE_URL+"/sysinstallation",
 		controller: "SysInstallationCtrl"
 	}).when("/sysoperation",{
-		templateUrl :BASE_URL+"main/sysoperation",
+		templateUrl :BASE_URL+"/sysoperation",
 		controller: "SysOpsCtrl"
 	}).when("/faqs",{
-		templateUrl :BASE_URL+"main/faqs",
+		templateUrl :BASE_URL+"/faqs",
 		controller: "FaqsCtrl"
 	}).when("/products/:id",{
-		templateUrl :BASE_URL+"main/products",
+		templateUrl :BASE_URL+"/products",
 		controller: "ProductsCtrl"
 	}).when("/installations",{
-		templateUrl :BASE_URL+"main/installations",
+		templateUrl :BASE_URL+"/installations",
 		controller: "InstallationsCtrl"
 	}).otherwise({
 		redirectTo:"/app",
-		templateUrl :BASE_URL+"main/home",
+		templateUrl :BASE_URL+"/home",
 		})
 });
-
-app.controller("ServicesCtrl",["$scope","$location","$routeParams", function($scope,$location,$routeParams) {
-	$scope.data=[
-		    {name:"GroupLove",genre:"The Bealters",rating:5},
-		    {name:"Alt-2",genre:"The Alternate",rating:3}
-	    ];
-	$scope.addArtist = function(){
-	}
-}]);
-app.controller("ContactCtrl",["$scope","$location","$routeParams", function($scope,$location,$routeParams) {}
-]);
-app.controller("AboutCtrl",["$scope","$location","$routeParams", function($scope,$location,$routeParams) {
-	    $scope.location = $location;
-}
-]);
-app.controller("FaqsCtrl",["$scope","$location","$routeParams","$http", function($scope,$location,$routeParams,$http) {
-	  $http.get('http://localhost/anya/index.php/api/getFaqs').then(function(response) {
-          $scope.faqs = response.data;
-      });
-	  
-}
-]);
-app.controller("ProductsCtrl",["$scope","$location","$routeParams", "$http", function($scope,$location,$routeParams,$http) {
-    	$http({
-    	        url: 'http://localhost/anya/index.php/api/getViewProduct',
-    	        method: "POST",
-    	        data: JSON.stringify({id:$routeParams.id }),
-    	        headers: {'Content-Type': 'application/json'}
-    	    }).then(function(response) {
-    	    $scope.product = response.data;
-    	    console.log(response);
-       });
-	}
-]);
-

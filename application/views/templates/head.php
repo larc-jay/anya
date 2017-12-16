@@ -12,15 +12,17 @@
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css" >
      <!-- Bootstrap core CSS -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
      <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script src="<?php echo base_url()?>assets/js/bs/bootstrap.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 	<script src="<?php echo base_url()?>assets/js/ag/angular.min.js"></script>
     <script src="<?php echo base_url()?>assets/js/ag/angular-route.js"></script>
+     <script src="<?php echo base_url()?>assets/js/ag/angular-sanitize.js"></script>
      <script src="<?php echo base_url()?>assets/js/ag/app.config.js"></script>
     <script src="<?php echo base_url()?>assets/js/ag/app.js"></script>
-
+    <script src="<?php echo base_url()?>assets/js/ag/controllers.js"></script>
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>

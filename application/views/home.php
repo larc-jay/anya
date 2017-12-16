@@ -11,7 +11,7 @@ defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 				</div>
 			</div>
 	<div class="home-container">
-		<div class="row home-content">
+		<div class="row home-content" style="margin: 0">
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
 				<p class="pdlr">
@@ -77,79 +77,69 @@ defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 		<div class="row">
 		  		<div class="col-md-12">
 		  			 <div class="jumbotron">
+		  			     <p style="font-size: 30px;color: #fff;position: absolute;left: 40%;top: 1px;">Products</p>
 		  			 	 <div class="row">
 		  					<div class="col-md-4">
 		  						<div class="lgb">
-		  						<h3>Plan</h3>
-		  							<ul>
-		  								<li>Executive summary Preparation</li>
-		  								<li>Business plan</li>
-		  								<li>Marketing Plan Development</li> 
-		  								<li>Preparation Support</li>
-		  							</ul> 
-		  							<p>&nbsp;</p>
+		  						<h3>Solar Water Pump</h3>
+		  							<a href="<?php echo base_url()?>#!/products/1">
+									<div>
+										<img src="banner/anya7.jpg" width="100%" height="140" alt="Solar Water Pump">
+									</div>
+									</a>
 		  						</div>	
 		  					</div>
 		  					<div class="col-md-4 ">
 		  						<div class="lgb">
-		  						<h3>Examine</h3>
-		  							<ul>
-		  								<li>Executive summary Preparation</li>
-		  								<li>Business plan</li>
-		  								<li>Marketing Plan Development</li> 
-		  								<li>Preparation Support</li>
-		  							</ul> 
-		  							<p>&nbsp;</p>
+		  						<h3>Roof Top Solar</h3>
+		  							<a href="<?php echo base_url()?>#!/products/2">
+									<div>
+										<img src="banner/age_rooftop.jpg" width="100%" height="140" alt="Solar Water Pump">
+									</div>
+									</a>
 		  						</div>	
 		  					</div>
 		  					<div class="col-md-4">
 		  					<div class="lgb">
-		  						<h3>Understand</h3>
-		  							<ul>
-		  								<li>Executive summary Preparation</li>
-		  								<li>Business plan</li>
-		  								<li>Marketing Plan Development</li> 
-		  								<li>Preparation Support</li>
-		  							</ul> 
-		  							<p>&nbsp;</p>
+		  						<h3>on-Grid</h3>
+		  							<a href="<?php echo base_url()?>#!/products/3">
+									<div>
+										<img src="banner/age-on-grid.jpg" width="100%" height="140" alt="Solar Water Pump">
+									</div>
+									</a>
+		  						</div>	
 		  							</div>
 		  					</div>
-		  				</div>	
+		  				
 		  				<div class="row">
 		  					<div class="col-md-4">
 		  						<div class="lgb">
-			  						<h3>Achivements</h3>
-			  							<ul>
-			  								<li>Executive summary Preparation</li>
-			  								<li>Business plan</li>
-			  								<li>Marketing Plan Development</li> 
-			  								<li>Preparation Support</li>
-			  							</ul> 
-			  							<p>&nbsp;</p>
+			  						<h3>off-Grid</h3>
+		  							<a href="<?php echo base_url()?>#!/products/4">
+									<div>
+										<img src="banner/anya3.jpg" width="100%" height="140" alt="Solar Water Pump">
+									</div>
+									</a>
 		  						</div>
 		  					</div>
 		  					<div class="col-md-4">
 		  						<div class="lgb">
-			  						<h3>Goals</h3>
-			  							<ul>
-			  								<li>Executive summary Preparation</li>
-			  								<li>Business plan</li>
-			  								<li>Marketing Plan Development</li> 
-			  								<li>Preparation Support</li>
-			  							</ul> 
-			  							<p>&nbsp;</p>
-		  						</div>	
+			  						<h3>Solar Water Heater</h3>
+		  							<a href="<?php echo base_url()?>#!/products/5">
+									<div>
+										<img src="banner/age-solar-water-heater.png" width="100%" height="140" alt="Solar Water Pump">
+									</div>
+									</a>
+		  						</div>
 		  					</div>
 		  					<div class="col-md-4">
 		  					<div class="lgb">
-		  						<h3>Monitor</h3>
-		  							<ul>
-		  								<li>Executive summary Preparation</li>
-		  								<li>Business plan</li>
-		  								<li>Marketing Plan Development</li> 
-		  								<li>Preparation Support</li>
-		  							</ul> 
-		  							<p>&nbsp;</p>
+		  						<h3>Solar Water Heater</h3>
+		  							<a href="<?php echo base_url()?>#!/products/6">
+									<div>
+										<img src="banner/age_solar-structure.png" width="100%" height="140" alt="Solar Water Pump">
+									</div>
+									</a>
 		  						</div>	
 		  					</div>
 		  				</div>	

@@ -7492,7 +7492,7 @@ button.close {
 }
 
 .btn, .btn:hover {
-	border-color: rgba(0, 0, 0, 0.6);
+	/*border-color: rgba(0, 0, 0, 0.6);*/
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
 }
 
