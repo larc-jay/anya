@@ -29,6 +29,6 @@ app.config(function($routeProvider,BASE_URL){
 		controller: "InstallationsCtrl"
 	}).otherwise({
 		redirectTo:"/app",
-		templateUrl :BASE_URL+"/home",
+		templateUrl :BASE_URL+"/home"
 		})
 });

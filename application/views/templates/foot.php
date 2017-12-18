@@ -39,20 +39,26 @@
             <div class="col-lg-3  col-md-3 col-sm-3">
             	<div class="footer_dv">
                 	<h4>social media</h4>
-                		<?php  $this->load->view('templates/social'); ?>
+                		<?php  //$this->load->view('templates/social'); ?>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-          <div class="col-md-12">
-          	<a href="https://www.facebook.com/anyagreenenergy"><i class="fa fa-facebook-square" ></i></a>
-<a href="https://www.linkedin.com/company/anya-green-energy-solutions"><i class="fa fa-twitter-square" ></i></a>
-<a href="https://plus.google.com/114783585169273581555"><i class="fa fa-google-plus-square" ></i></a>
-          	
-          	<a href="http://anyagreenenergy.com">&copy;2016 anyagreenenergy.com</a>
-          </div>
-    </div>
 </footer>
+    <div class="row" style="background:#1c1e22">
+    	<div class="col-md-12"> 
+       	  <div class="container">
+	    	  <div class="row">
+				          <div class="col-md-10">
+				          		<a href="https://www.facebook.com/anyagreenenergy"><i class="fa fa-facebook-square" ></i></a>
+								<a href="https://www.linkedin.com/company/anya-green-energy-solutions"><i class="fa fa-twitter-square" ></i></a>
+								<a href="https://plus.google.com/114783585169273581555"><i class="fa fa-google-plus-square" ></i></a>
+				          		<a href="http://anyagreenenergy.com">&copy;2016 anyagreenenergy.com</a>
+				          </div>
+		          		  <div class="col-md-2 visitor">Visitors's : <?php echo $data->visit_count; ?> </div>
+		          	</div>
+	         </div>	
+	      </div>
+    </div>
 </body>
 </html>

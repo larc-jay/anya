@@ -102,8 +102,18 @@ class Api_model extends CI_Model {
 		return $query->row();
 	}
 	
+	public function get_visitor_count(){
+		$flag = true;
+		if($flag){
+			$this->update_visitor_count();
+		}
+		$query =  $this->db->get('visotor_counter');
+		return $query->row();
+	}
 	
-	
+	private function update_visitor_count(){
+		$this->db->query('update  visotor_counter set visit_count = visit_count + 1 where id =1');
+	}
 	
 	
 	

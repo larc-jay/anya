@@ -42,3 +42,17 @@
             return $sce.trustAsHtml(htmlCode);
         }
 	}]); 
+	
+	
+	app.controller("VisitorCountCtrl", function($scope, $window) {
+
+		$window.onload = function() {
+		 	alert("Angularjs call function on page load");
+		};
+	});
+	/*app.controller("MainCtrl",["$scope","$location","$routeParams","$http",'API_URL', function($scope,$location,$routeParams,$http,apiURL) {
+		 $http.get(apiURL+'/visitorCounter').then(function(response) {
+	          $scope.visitor =  response.data;
+	    });
+		}
+	]);*/

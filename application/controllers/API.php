@@ -78,6 +78,11 @@ class API extends CI_Controller {
 		$response = $this->api_model->get_view_product($json['id']);
 		$this->output->set_output(json_encode($response));
 	}
+	
+	public function visitorCounter(){
+		$response = $this->api_model->get_visitor_count();
+		$this->output->set_output(json_encode($response));
+	}
 }
 
 ?>
