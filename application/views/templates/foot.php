@@ -45,7 +45,7 @@
         </div>
     </div>
 </footer>
-    <div class="row" style="background:#1c1e22">
+    <div class="row" style="background:#1c1e22;margin: 0;">
     	<div class="col-md-12"> 
        	  <div class="container">
 	    	  <div class="row">
