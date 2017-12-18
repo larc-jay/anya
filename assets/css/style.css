@@ -118,3 +118,23 @@ h4,h5{
     float: right;
     padding: 3px;
 }
+.my-form {
+  transition:0.5s linear all;
+  background: white;
+}
+#contactedname.ng-invalid {
+  border: 1px red solid;
+  color:white;
+}
+#contactedEmail.ng-invalid {
+   border:1px  red solid;
+  color:white;
+}
+#contactedquery.ng-invalid {
+   border: 1px red solid;
+  color:white;
+}
+#contactedmessage.ng-invalid {
+  border: 1px red solid;
+  color:white;
+}

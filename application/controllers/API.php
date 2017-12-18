@@ -83,6 +83,29 @@ class API extends CI_Controller {
 		$response = $this->api_model->get_visitor_count();
 		$this->output->set_output(json_encode($response));
 	}
+	public function contact(){
+		$json = json_decode(file_get_contents('php://input'), true);
+		$response = $this->sendMail($json['name'],$json['email'],$json['query'],$json['message']);
+		$this->output->set_output(json_encode($response));
+	}
+	public function sendMail($name,$email,$query,$message){
+		$this->load->library('email');
+		$this->email->from($email, 'Anya Green Energy Solution | Soler Energy');
+		$this->email->to('contact@anyagreenenergy.com');
+		$this->email->cc('jay.answer@wmail.com');
+		//$this->email->bcc('them@their-example.com');
+		$this->email->subject('Query from '.$name);
+		$this->email->set_mailtype('html');
+		//$body = $this->load->view('templates/fp-email-tpl',$data,TRUE);
+		$this->email->message($message);
+		$res = array();
+		if($this->email->send()) {
+			 $res['message'] =  "Your email send successfully";
+		}else{
+			$res['message'] =  "Your query is not send. Please tray again!";
+		}
+		return $res;
+	}
 }
 
 ?>

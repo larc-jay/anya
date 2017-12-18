@@ -56,3 +56,33 @@
 	    });
 		}
 	]);*/
+	app.controller('ContactFormController', ['$scope','$http','API_URL', function($scope,$http,apiURL) {
+		      $scope.contactedname = 'Enter Name';
+		      $scope.contactedEmail = 'example@example.com';
+		      $scope.contactedquery = 'Enter query subject';
+		      $scope.contactedmessage = 'Enter your query';
+		      $scope.contact = [];
+		      $scope.submit = function() {
+		          if ($scope.contactedname) {
+		        	  $scope.contact['name'] = $scope.contactedname;
+		          }
+		          if ($scope.contactedEmail) {
+		        	  $scope.contact['email'] = $scope.contactedEmail;
+		          }
+		          if ($scope.contactedquery) {
+		        	  $scope.contact['query'] = $scope.contactedquery;
+		          }
+		          if ($scope.contactedmessage) {
+		        	  $scope.contact['message'] = $scope.contactedmessage;
+		          }
+		          $http({
+		    	        url: apiURL+'/contact',
+		    	        method: "POST",
+		    	        data: JSON.stringify({name : $scope.contactedname,email : $scope.contactedEmail , query :$scope.contactedquery,message:$scope.contactedmessage}),
+		    	        headers: {'Content-Type': 'application/json'}
+		    	    }).then(function(response) {
+		    	    	$scope.message = response.message;
+		       });
+		        };
+		}
+	]);
