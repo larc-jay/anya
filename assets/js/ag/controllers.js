@@ -61,6 +61,8 @@
 		      $scope.contactedEmail = 'example@example.com';
 		      $scope.contactedquery = 'Enter query subject';
 		      $scope.contactedmessage = 'Enter your query';
+		      $scope.cp1 = Math.round((Math.random() * 10) * 10);
+		      $scope.cp2 = Math.round((Math.random() * 10) * 10);
 		      $scope.contact = [];
 		      $scope.submit = function() {
 		          if ($scope.contactedname) {
@@ -75,14 +77,25 @@
 		          if ($scope.contactedmessage) {
 		        	  $scope.contact['message'] = $scope.contactedmessage;
 		          }
+		          if ($scope.cpsum) {
+		        	  if($scope.cpsum != ($scope.cp1 + $scope.cp2)){
+		        		  $scope.answer = "You have filled wrong answer !!!";
+		        		  return;
+		        	  }
+		          }
 		          $http({
 		    	        url: apiURL+'/contact',
 		    	        method: "POST",
 		    	        data: JSON.stringify({name : $scope.contactedname,email : $scope.contactedEmail , query :$scope.contactedquery,message:$scope.contactedmessage}),
 		    	        headers: {'Content-Type': 'application/json'}
 		    	    }).then(function(response) {
-		    	    	$scope.message = response.message;
-		       });
+		    	    	  $scope.message = response.data.message;
+		    	    	  //alert(response.data.message);
+		    	    	  $scope.contactedname = 'Enter Name';
+			   		      $scope.contactedEmail = 'example@example.com';
+			   		      $scope.contactedquery = 'Enter query subject';
+			   		      $scope.contactedmessage = 'Enter your query';
+		    	    });
 		        };
 		}
 	]);

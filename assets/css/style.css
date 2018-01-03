@@ -127,8 +127,8 @@ h4,h5{
   color:white;
 }
 #contactedEmail.ng-invalid {
-   border:1px  red solid;
-  color:white;
+  border:1px  red solid;
+  color:#e42d2d;
 }
 #contactedquery.ng-invalid {
    border: 1px red solid;
@@ -137,4 +137,11 @@ h4,h5{
 #contactedmessage.ng-invalid {
   border: 1px red solid;
   color:white;
+}
+.response-message{
+	color:#3c763d;
+	font-size: 1.5em;
+}
+.error{
+	color:red;
 }

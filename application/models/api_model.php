@@ -102,6 +102,7 @@ class Api_model extends CI_Model {
 		return $query->row();
 	}
 	
+	
 	public function get_visitor_count(){
 		$flag = true;
 		if($flag){
